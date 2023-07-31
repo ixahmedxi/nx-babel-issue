@@ -10,6 +10,7 @@
       "defaultConfiguration": "production",
       "options": {
         "compiler": "babel",
+        "babelConfig": "apps/frontend/.babelrc.cjs",
         "outputPath": "dist/apps/frontend",
         "index": "apps/frontend/src/index.html",
         "baseHref": "/",
